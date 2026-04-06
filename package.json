@@ -1,0 +1,16 @@
+{
+  "name": "ai-adaptive-browser",
+  "version": "1.0.0",
+  "description": "AI-Assisted Adaptive Web Browser — Chrome Extension + User Study",
+  "private": true,
+  "scripts": {
+    "test":          "jest",
+    "test:watch":    "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose":  "jest --verbose"
+  },
+  "devDependencies": {
+    "jest":                    "^29.7.0",
+    "jest-environment-jsdom":  "^29.7.0"
+  }
+}

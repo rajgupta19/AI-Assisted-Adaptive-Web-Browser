@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Adaptive Browser</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <span class="logo-icon">&#9881;</span>
+        <span class="logo-text">AI Adaptive Browser</span>
+      </div>
+      <span class="version">v1.0</span>
+    </div>
+
+    <!-- ── STATE A: Adaptive mode OFF ──────────────────────────────────────── -->
+    <div id="state-off">
+      <div class="card off-card">
+        <div class="off-icon">&#128065;</div>
+        <p class="off-title">Adaptive Mode is Off</p>
+        <p class="off-desc">Turn on to start observing your browsing behaviour and build a personalised layout.</p>
+        <button id="btn-turn-on" class="btn btn-activate">Turn On Adaptive Mode</button>
+      </div>
+    </div>
+
+    <!-- ── STATE B: Adaptive mode ON ───────────────────────────────────────── -->
+    <div id="state-on" class="hidden">
+
+      <!-- Status banner -->
+      <div class="status-banner">
+        <div class="status-dot"></div>
+        <span class="status-text">Adaptive Mode is <strong>On</strong> — observing your browsing</span>
+        <button id="btn-turn-off" class="btn-link">Turn Off</button>
+      </div>
+
+      <!-- Observations / live scores -->
+      <div class="card">
+        <div class="card-title">Observations so far</div>
+        <div id="scores-list" class="scores-list">
+          <p class="hint">Browse the page — scores will appear here.</p>
+        </div>
+        <div id="observation-summary" class="obs-summary hidden"></div>
+      </div>
+
+      <!-- Apply button -->
+      <div class="card apply-card">
+        <div class="apply-icon">&#10024;</div>
+        <p class="apply-title">Ready to Personalise</p>
+        <p class="apply-desc">Based on what you've read and ignored, the extension can now restructure this page — highlighting what matters to you and collapsing the rest.</p>
+        <button id="btn-apply" class="btn btn-apply">Apply Customised Experience</button>
+        <button id="btn-reset-layout" class="btn btn-ghost hidden">&#8635; Reset to Original Layout</button>
+      </div>
+
+      <!-- Live Scores Panel -->
+      <div class="card">
+        <div class="card-title">Top Engaged Elements</div>
+        <div id="scores-list-detail" class="scores-list">
+          <p class="hint">Keep browsing to build scores.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Study Controls (always visible, collapsible) ──────────────────── -->
+    <details class="card study-card">
+      <summary class="card-title study-summary">&#128203; Study Controls</summary>
+
+      <div class="study-inner">
+        <div class="field-row">
+          <label class="field-label" for="participant-id">Participant ID</label>
+          <input type="text" id="participant-id" class="text-input" placeholder="e.g. P01" maxlength="10" />
+        </div>
+
+        <div class="field-row">
+          <label class="field-label" for="page-select">Page</label>
+          <select id="page-select" class="select-input">
+            <option value="1">Page 1 — Health Article</option>
+            <option value="2">Page 2 — Laptop Review</option>
+            <option value="3">Page 3 — Travel Guide</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <label class="field-label" for="task-select">Task</label>
+          <select id="task-select" class="select-input">
+            <option value="1">Task 1</option>
+            <option value="2">Task 2</option>
+            <option value="3">Task 3</option>
+          </select>
+        </div>
+
+        <div class="study-row">
+          <span class="field-label">Condition</span>
+          <div class="condition-badges">
+            <span id="badge-a" class="condition-badge active">A — Original</span>
+            <span id="badge-b" class="condition-badge">B — Adaptive</span>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button id="btn-start-task" class="btn btn-primary">&#9654; Start Task</button>
+          <button id="btn-stop-task"  class="btn btn-secondary" disabled>&#9632; Stop</button>
+        </div>
+
+        <div id="task-timer" class="task-timer">--:--</div>
+        <div id="task-status" class="task-status"></div>
+
+        <div class="button-row">
+          <button id="btn-export" class="btn btn-export">&#8595; Export JSON</button>
+          <button id="btn-clear"  class="btn btn-danger">&#10005; Clear</button>
+        </div>
+
+        <div id="session-count" class="hint" style="text-align:center;margin-top:4px"></div>
+      </div>
+    </details>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

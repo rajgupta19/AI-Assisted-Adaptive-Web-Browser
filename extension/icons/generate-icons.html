@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Open this file in Chrome, then right-click each canvas and "Save image as" -->
+<!-- Save as icon16.png, icon48.png, icon128.png respectively -->
+<html>
+<body style="background:#111;display:flex;gap:20px;padding:20px;flex-wrap:wrap;">
+<script>
+  const sizes = [16, 48, 128];
+  sizes.forEach(size => {
+    const canvas = document.createElement('canvas');
+    canvas.width = canvas.height = size;
+    canvas.title = `icon${size}.png`;
+    canvas.style.border = '1px solid #333';
+    document.body.appendChild(canvas);
+
+    const label = document.createElement('p');
+    label.textContent = `${size}x${size} → save as icon${size}.png`;
+    label.style.cssText = 'color:#aaa;font:12px sans-serif;margin:0 0 10px;';
+    document.body.insertBefore(label, canvas);
+
+    const ctx = canvas.getContext('2d');
+    const cx  = size / 2, cy = size / 2, r = size * 0.45;
+
+    // Background circle
+    const bg = ctx.createRadialGradient(cx, cy*0.8, 0, cx, cy, r);
+    bg.addColorStop(0, '#1d4ed8');
+    bg.addColorStop(1, '#0f172a');
+    ctx.fillStyle = bg;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Brain-like icon — simple "A" lettermark
+    ctx.fillStyle = '#bfdbfe';
+    ctx.font = `bold ${Math.round(size * 0.5)}px sans-serif`;
+    ctx.textAlign    = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('A', cx, cy + size * 0.03);
+  });
+
+  // Auto download all
+  document.querySelectorAll('canvas').forEach((canvas, i) => {
+    const link = document.createElement('a');
+    link.href     = canvas.toDataURL('image/png');
+    link.download = `icon${sizes[i]}.png`;
+    link.textContent = `⬇ Download icon${sizes[i]}.png`;
+    link.style.cssText = 'display:block;color:#60a5fa;font:12px sans-serif;margin-bottom:20px;';
+    canvas.after(link);
+  });
+</script>
+</body>
+</html>

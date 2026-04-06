@@ -1,0 +1,49 @@
+/* ─── AI Adaptive Browser — Injected Stylesheet ──────────────────────────── */
+
+/* Smooth transitions for all adaptations */
+.ai-adapted {
+  transition: opacity 0.4s ease, transform 0.4s ease,
+              box-shadow 0.4s ease, max-height 0.5s ease,
+              filter 0.4s ease;
+}
+
+/* ── HIGH attention — visually emphasise ───────────────────────────────────── */
+.ai-highlight {
+  outline: 2px solid rgba(59, 130, 246, 0.55) !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.08) !important;
+  border-radius: 4px !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* ── LOW attention — collapse and dim ──────────────────────────────────────── */
+.ai-collapsed {
+  opacity: 0.35 !important;
+  max-height: 60px !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+
+/* Expand low-attention elements on hover so users can still access them */
+.ai-collapsed:hover {
+  opacity: 0.75 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* ── DIMMED — ads, banners, iframes ────────────────────────────────────────── */
+.ai-dimmed {
+  opacity: 0.15 !important;
+  filter: grayscale(80%) !important;
+  pointer-events: none !important;
+  max-height: 40px !important;
+  overflow: hidden !important;
+}
+
+.ai-dimmed:hover {
+  opacity: 0.4 !important;
+  pointer-events: auto !important;
+  max-height: none !important;
+}

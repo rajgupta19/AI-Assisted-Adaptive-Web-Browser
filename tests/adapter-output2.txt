@@ -1,0 +1,356 @@
+﻿  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] No scores yet ΓÇö browse the page a little more first.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:112:15)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+          at Array.forEach (<anonymous>)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Customized layout applied.
+
+      at applyAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:147:13)
+          at Array.forEach (<anonymous>)
+
+  console.log
+    [Adapter] Adaptive interface module ready.
+
+      at eval (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:195:11)
+
+  console.log
+    [Adapter] Layout reset to original.
+
+      at removeAdaptations (eval at loadAdapter (tests/unit/adapter.test.js:59:3), <anonymous>:155:13)
+          at Array.forEach (<anonymous>)
+
+node.exe : FAIL tests/unit/adapter.test.js
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL tests/ 
+   unit/adapter.test.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Adapter ΓÇö notification pill
+    ΓêÜ showNotification creates #ai-adaptive-notif in 
+the DOM (38 ms)
+    ΓêÜ notification pill contains the status text (6 ms)
+    ΓêÜ notification has a "Turn Off" button (9 ms)
+    ΓêÜ calling enable twice does not add a second pill 
+(7 ms)
+    ΓêÜ removeNotification removes #ai-adaptive-notif 
+from DOM (8 ms)
+    ΓêÜ removeNotification removes the injected <style> 
+tag (6 ms)
+    ΓêÜ __aiAdapterEnable sets window.__aiEnabled to 
+true (5 ms)
+    ΓêÜ __aiAdapterDisable sets window.__aiEnabled to 
+false (4 ms)
+  Adapter ΓÇö applyAdaptations() class mutations
+    ΓêÜ HIGH-scored element receives ai-highlight class 
+(6 ms)
+    ΓêÜ LOW-scored element receives ai-collapsed class 
+(2 ms)
+    ΓêÜ MEDIUM-scored element receives neither highlight 
+nor collapsed (3 ms)
+    ΓêÜ adapted elements receive the ai-adapted marker 
+class (3 ms)
+    ΓêÜ applyAdaptations with empty __aiScores does not 
+throw (3 ms)
+    ΓêÜ notification text updates to "Adaptive layout 
+applied Γ£ô" after apply (3 ms)
+    ├ù previous adaptation classes are fully cleared 
+before re-applying (5 ms)
+  Adapter ΓÇö ad dimming
+    ΓêÜ element with class "ad-banner" gets ai-dimmed (2 
+ms)
+    ΓêÜ element with class "ads" gets ai-dimmed (2 ms)
+    ΓêÜ <iframe> gets ai-dimmed (9 ms)
+    ΓêÜ the notification pill itself is never dimmed (8 
+ms)
+  Adapter ΓÇö removeAdaptations()
+    ΓêÜ removeAdaptations strips ai-highlight from all 
+elements (3 ms)
+    ΓêÜ removeAdaptations strips ai-collapsed from all 
+elements (2 ms)
+    ΓêÜ removeAdaptations strips ai-dimmed from all 
+elements (2 ms)
+    ΓêÜ non-adapted elements are unaffected by 
+removeAdaptations (2 ms)
+    ΓêÜ __aiAdapterReset restores notification text (3 
+ms)
+  Adapter ΓÇö chrome.runtime.onMessage listeners
+    ΓêÜ ADAPTIVE_TOGGLED {value:true} calls 
+__aiAdapterEnable path (2 ms)
+    ΓêÜ ADAPTIVE_TOGGLED {value:false} calls 
+__aiAdapterDisable path (4 ms)
+    ΓêÜ APPLY_NOW message triggers applyAdaptations 
+without error (2 ms)
+    ΓêÜ RESET_LAYOUT message calls __aiAdapterReset 
+(strips classes) (2 ms)
+
+  ΓùÅ Adapter ΓÇö applyAdaptations() class mutations ΓÇ║ 
+previous adaptation classes are fully cleared before 
+re-applying
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+    [0m [90m 218 |[39m
+     [90m 219 |[39m     expect(el[33m.[39mclassList[
+33m.[39mcontains([32m'ai-highlight'[39m))[33m.[39mto
+Be([36mfalse[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 220 |[39m     expect(el[3
+3m.[39mclassList[33m.[39mcontains([32m'ai-collapsed'
+[39m))[33m.[39mtoBe([36mtrue[39m)[33m;[39m
+     [90m     |[39m                                    
+               [31m[1m^[22m[39m
+     [90m 221 |[39m   })[33m;[39m
+     [90m 222 |[39m })[33m;[39m
+     [90m 223 |[39m[0m
+
+      at Object.toBe (tests/unit/adapter.test.js:220:51)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 27 passed, 28 total
+Snapshots:   0 total
+Time:        1.288 s
+Ran all test suites matching 
+/tests\\unit\\adapter.test.js/i.
