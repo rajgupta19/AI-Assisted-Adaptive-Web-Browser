@@ -111,13 +111,19 @@
       return;
     }
 
+    // Clear previous adaptations to ensure a pristine slate and avoid selector conflicts
+    // (e.g. 'ai-adapted' matching '[class*="-ad"]')
+    document.querySelectorAll('.' + CLASS_ADAPTED).forEach((el) => {
+      el.classList.remove(CLASS_HIGH, CLASS_LOW, CLASS_DIMMED, CLASS_ADAPTED);
+    });
+
     // 1. Dim known ad/promo elements
     AD_SELECTORS.forEach((sel) => {
       try {
         document.querySelectorAll(sel).forEach((el) => {
           if (el.id === NOTIF_ID) return; // never touch our own notification
           el.classList.add(CLASS_DIMMED, CLASS_ADAPTED);
-          el.classList.remove(CLASS_HIGH, CLASS_LOW);
+          // el.classList.remove(CLASS_HIGH, CLASS_LOW); // No longer needed as we just cleared them
         });
       } catch (_) {}
     });
@@ -127,7 +133,7 @@
       if (el.id === NOTIF_ID) return;
       if (el.classList.contains(CLASS_DIMMED)) return;
 
-      el.classList.remove(CLASS_HIGH, CLASS_LOW, CLASS_ADAPTED);
+      // el.classList.remove(CLASS_HIGH, CLASS_LOW, CLASS_ADAPTED); // Handled by the global clear above
 
       if (score.label === 'HIGH') {
         el.classList.add(CLASS_HIGH, CLASS_ADAPTED);
