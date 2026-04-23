@@ -2,7 +2,7 @@
 analyse.py — User Study Data Analysis
 ======================================
 Usage:
-    python analyse.py                  # reads all *.json files in current dir
+    python analyse.py                  # reads all *.json files from the study folder
     python analyse.py path/to/data/    # reads json files from a specific folder
 
 Requires: pip install scipy tabulate
